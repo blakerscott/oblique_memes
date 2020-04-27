@@ -5,8 +5,7 @@ const Meme = () => {
   let number = 52;
   return (
     <div>
-      <img src={require('./meme_' + number + '.png')} alt="meme"></img>
-      <div>Hello World</div>
+      <img src={require('./meme_' + number + '.png')} alt="meme" style= {{ display: 'block', margin: 'auto', width: '60%' }}></img>
     </div>
   );
 };

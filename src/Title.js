@@ -4,7 +4,7 @@ import React from 'react';
 const Title = () => {
     return (
       <div>
-        <img src={require('./title.gif')} alt="meme"></img>
+        <img src={require('./title.gif')} alt="meme" style= {{ display: 'block', margin: 'auto', width: '60%' }}></img>
       </div>
     );
   };
