@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Title from './Title';
 import Meme from './Meme';
+import Button from './Button';
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
       </div>
       <div>
       <Meme />
+      </div> 
+      <div>
+      <Button />
       </div>  
     </div>
   );
