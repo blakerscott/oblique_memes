@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Title from './Title';
-import Meme from './Meme';
-import Button from './Button';
+import Title from './components/Title';
+import Meme from './components/Meme';
+import Button from './components/Button';
 
 const App = () => {
   return (
@@ -12,10 +12,10 @@ const App = () => {
       </div>
       <div>
       <Meme />
-      </div> 
+      </div>
       <div>
       <Button />
-      </div>  
+      </div>
     </div>
   );
 };
